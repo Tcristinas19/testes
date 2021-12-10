@@ -27,7 +27,7 @@ public class Postagem {
 	
 	@NotBlank(message = "Este campo não pode permanecer em branco.")
 	@Size(max = 255, message = "Deverá conter no máximo 255 caracteres")
-	private String título;
+	private String titulo;
 	
 	@NotBlank(message = "Este campo não pode permanecer em branco.")
 	@Size(max = 5000, message = "Deverá conter no máximo 5000 caracteres")
@@ -54,11 +54,11 @@ public class Postagem {
 	}
 
 	public String getTítulo() {
-		return título;
+		return titulo;
 	}
 
 	public void setTítulo(String título) {
-		this.título = título;
+		this.titulo = título;
 	}
 
 	public String getTexto() {
